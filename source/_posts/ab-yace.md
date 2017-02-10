@@ -33,6 +33,23 @@ Requests per second:    1078.08[#/sec](mean)  ##每秒多少请求，这个是�
 Time per request:       92.757[ms](mean)  ##用户平均请求等待时间
 Time per request:       0.928[ms](mean, across all concurrent requests)  ##服务器平均处理时间，也就是服务器吞吐量的倒数
 Transfer rate:          201.09[Kbytes/sec] received  ##每秒获取的数据长度
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.8      1       5
+Processing:     2   87  18.2     93     105
+Waiting:        1   46  27.0     44     101
+Total:          2   88  18.2     94     106
+
+Percentage of the requests served within a certain time (ms)
+  50%     94  ## 50%的请求在94ms内返回
+  66%     97
+  75%     98
+  80%     99
+  90%    100
+  95%    102
+  98%    103
+  99%    104
+ 100%    106 (longest request)
 ```
   
 
