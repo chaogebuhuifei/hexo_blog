@@ -14,6 +14,7 @@ ab -n 1000 -c 100 http://domain/index.php
  - -c 并发数
 
 返回参数说明:
+<!--more-->
 ```
 Server Software:        swoole-http-server  ##服务器版本
 Server Hostname:        127.0.0.1   ##请求的服务器
