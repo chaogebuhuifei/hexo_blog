@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 盛文超
-subtitle: 个人博客
+title: chaogebuhuifei
+subtitle: one-the-way
 description: PHP博客,PHP日记
 author: chaogebuhuifei
 language:
@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.shengwenchao.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
@@ -46,6 +46,10 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    PHP: php
+    MySql : mysql
+    Linux : linux
+    其他 : other
 tag_map:
 
 # Date / Time format
@@ -63,7 +67,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
